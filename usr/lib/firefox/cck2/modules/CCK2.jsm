@@ -662,7 +662,8 @@ var CCK2 = {
             }
             var userAgentLocale = Preferences.defaults.get("general.useragent.locale");
             if (!userAgentLocale) {
-              userAgentLocale = 'en-US';
+              var activeWindow = Services.wm.getMostRecentWindow("navigator:browser");
+              userAgentLocale = activeWindow.getLocale();
             }
 
             var gettingStartedURL = "https://www.mozilla.org/" + userAgentLocale + "/firefox/central/";
