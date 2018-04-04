@@ -23,7 +23,7 @@ pref("browser.showPersonalToolbar", true);
 pref("browser.sessionstore.interval", 60000);
 
 pref("browser.startup.firstrunSkipsHomepage", true);
-pref("browser.startup.homepage","data:text/plain,browser.startup.homepage=http://google.com");
+pref("browser.startup.homepage","data:text/plain,browser.startup.homepage=http://duckduckgo.com");
 pref("browser.startup.homepage_override.mstone","ignore");
 
 pref("browser.tabs.closeWindowWithLastTab", false);
@@ -48,7 +48,7 @@ pref("pref.privacy.disable_button.view_passwords", false);
 
 pref("security.insecure_field_warning.contextual.enabled", false);
 
-pref("startup.homepage_welcome_url", "https://www.google.com");
+pref("startup.homepage_welcome_url", "https://www.duckduckgo.com");
 
 pref("toolkit.scrollbox.smoothScroll", false);
 
