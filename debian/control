@@ -1,13 +1,13 @@
-Source: netrunner-settings-firefox
+Source: netrunner-settings-firefox-pinebook
 Section: admin
 Priority: optional
 Maintainer: Leszek Lesner <leszek@zevenos.com>
 Build-Depends: debhelper (>= 5)
 Standards-Version: 3.7.2
 
-Package: netrunner-settings-firefox
+Package: netrunner-settings-firefox-pinebook
 Architecture: all
 Breaks: default-settings-firefox
 Replaces: default-settings-firefox
 Description: Default configuration for Firefox
- Default configuration for Firefox in Maui/Netrunner
+ Default configuration for Firefox in Netrunner Pinebook
