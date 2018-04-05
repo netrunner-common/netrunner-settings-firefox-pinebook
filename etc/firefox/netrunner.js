@@ -45,6 +45,8 @@ pref("font.name.monospace.x-western", "Liberation Mono");
 pref("font.name.serif.x-western", "Liberation Serif");
 pref("font.size.fixed.x-western", 13);
 
+pref("intl.locale.matchOS", true);
+
 pref("mousewheel.min_line_scroll_amount", 25);
 pref("mousewheel.system_scroll_override_on_root_content.enabled", true);
 
