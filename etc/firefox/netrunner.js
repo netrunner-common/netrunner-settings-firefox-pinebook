@@ -57,4 +57,3 @@ pref("startup.homepage_welcome_url", "https://www.duckduckgo.com");
 pref("toolkit.scrollbox.smoothScroll", false);
 
 pref("ui.key.menuAccessKeyFocuses", false);
-pref("browser.tabs.remote.autostart", false);
