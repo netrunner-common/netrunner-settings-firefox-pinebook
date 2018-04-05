@@ -24,7 +24,7 @@ pref("browser.showPersonalToolbar", true);
 pref("browser.sessionstore.interval", 60000);
 
 pref("browser.startup.firstrunSkipsHomepage", true);
-pref("browser.startup.homepage","data:text/plain,browser.startup.homepage=http://duckduckgo.com");
+pref("browser.startup.homepage","data:text/plain,browser.startup.homepage=https://start.duckduckgo.com/");
 pref("browser.startup.homepage_override.mstone","ignore");
 pref("datareporting.policy.firstRunURL", ""); // Prevents from opening that up on firstRun
 
@@ -57,3 +57,4 @@ pref("startup.homepage_welcome_url", "https://www.duckduckgo.com");
 pref("toolkit.scrollbox.smoothScroll", false);
 
 pref("ui.key.menuAccessKeyFocuses", false);
+pref("browser.tabs.remote.autostart", false);
