@@ -6,7 +6,7 @@ Build-Depends: debhelper (>= 5)
 Standards-Version: 3.7.2
 
 Package: netrunner-settings-firefox-pinebook
-Architecture: all
+Architecture: any
 Breaks: default-settings-firefox, netrunner-settings-firefox
 Replaces: default-settings-firefox
 Description: Default configuration for Firefox
